@@ -1,0 +1,18 @@
+fun main() {
+    val nombre: String = "Petra";
+    
+    var edad: Int? = 19;
+    val mayoria_edad = 18;
+    
+    //println("${nombre}: ${if(!(edad > mayoria_edad)){"NO"} else{} } es mayor de edad")
+    
+    println("${edad ?: 0} es el valor actual de la edad")
+    
+    if(edad ?:0 >= mayoria_edad){
+        println("${nombre} es mayor de edad")
+    }
+    else{
+        println("No es mayor de edad")
+    }
+    
+}
