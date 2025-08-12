@@ -1,0 +1,30 @@
+fun main() {
+    ///////////////Variables
+    var nombre: String = "Juanito";
+    var edad: Int = 17;
+    var altura: Double = 1.80;
+    var estudiante: Boolean = true;
+    var mayorEdad: Boolean = false;
+    
+    var educacion = "Preparatoria";
+    var calificacion = 8.6;
+    var materias = 5;
+    var materiasReprobadas = false;
+    var graduado = false;
+    
+    ///////////////// Constantes
+    val titulo: String = "Batman 2";
+    val fecha: String = "12 agosto 2005";
+    val id: Int = 142;
+    val ingresoFinal: Double = 514278.56;
+    val disponible: Boolean = true;
+    
+    val NombreJefe = "El Don Donas"
+    val hpMaximo = 54000;
+    val ataqueMin = 45;
+    val recompensaDerrotar = 203.35;
+    val enemigoComun = false;
+    
+    println(nombre);
+    
+}
